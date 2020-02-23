@@ -5335,8 +5335,8 @@ i.iconfont.js-toggle-search.iconsearch {
 }
 .header-user-menu {
     position:absolute;
-    width:110px;
-    right:0px;
+    width:125px;
+    right:-11px;
     text-align:left;
     background:none;
     top:44px;
