@@ -5335,7 +5335,7 @@ i.iconfont.js-toggle-search.iconsearch {
 }
 .header-user-menu {
     position:absolute;
-    width:125px;
+    width:150px;
     right:-11px;
     text-align:left;
     background:none;
@@ -5352,8 +5352,8 @@ i.iconfont.js-toggle-search.iconsearch {
     position:fixed;
     top:46px;
     right:25px;
-    margin-left:-35px;
-    border-width:35px;
+    margin-left:-10px;
+    border-width:10px;
     border-style:solid;
     border-color:transparent transparent #fff transparent
 }
