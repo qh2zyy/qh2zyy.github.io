@@ -5343,7 +5343,7 @@ i.iconfont.js-toggle-search.iconsearch {
     display:none;
     overflow:hidden;
     animation:header-user-menu .4s;
-    box-shadow:0 1px 80px -8px rgba(0,0,0,.5);
+    box-shadow:0 1px 40px -8px rgba(0,0,0,.5);
     border-radius:5px;
     text-align:center
 }
@@ -5375,7 +5375,7 @@ i.iconfont.js-toggle-search.iconsearch {
     padding:5px 0;
     background:#fff;
     border-radius:0 0 4px 4px;
-    width:130px
+    width:260px
 }
 .header-user-menu a {
     display:block;
