@@ -377,35 +377,34 @@
     window.INSIGHT_CONFIG = INSIGHT_CONFIG;
 })(window);
 </script>
-    </br>
-</br>
+    
 <footer id="footer" class="clearfix" style="color: #333; text-align: center">
-    <i class="far fa-copyright" style="color: #333;">2019-2020</i> 
-  	  <a href="https://www.zhengyuanyuan520.com/" target="_blank" style="color: #333;"> 元小元科技 </a>丨
-	  <img src="https://cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@3.0.6/images/icp.png">
-	  <a href="https://www.beian.miit.gov.cn/" target="_blank"  style="color: #333;">鄂ICP备19020398号-2</a> 丨
-	  <!-- 网站运行时间 -->
-	  <span id="timeDate" >正在载入...</span><span id="times"><span><i class="fa fa-spinner fa-spin"> </i></span></span>
-	  <script class="run">
-	  var now = new Date(); 
-	  function createtime() { 
-	  var grt= new Date("12/04/2019 20:13:14");
-	  now.setTime(now.getTime()+250); 
-	  days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
-	  hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
-	  if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
-	  mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
-	  seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
-	  snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
-	  document.getElementById("timeDate").innerHTML = "本站已在风雨中度过了 "
-	  document.getElementById("times").innerHTML = dnum +" 天 " + hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
-	  document.getElementById("timeDate").style.color="#333";
-	  document.getElementById("times").style.color="#333";
-	  }
-	  setInterval("createtime()",250);
-	  </script>丨
-	  </footer>
-  <script>setLoadingBarProgress(80);</script>
+	&copy;<i style="color: #333;">2019-2020</i> 
+	<a href="https://www.zhengyuanyuan520.com/" target="_blank" style="color: #333;"> 元小元科技 </a>丨
+  <img src="https://cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@3.0.6/images/icp.png">
+  <a href="https://www.beian.miit.gov.cn/" target="_blank"  style="color: #333;">鄂ICP备19020398号-2</a> 丨
+  <!-- 网站运行时间 -->
+  <span id="timeDate" >正在载入...</span><span id="times"><span><i class="fa fa-spinner fa-spin"> </i></span></span>
+  <script class="run">
+  var now = new Date(); 
+  function createtime() { 
+  var grt= new Date("12/04/2019 20:13:14");
+  now.setTime(now.getTime()+250); 
+  days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
+  hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
+  if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
+  mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
+  seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
+  snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
+  document.getElementById("timeDate").innerHTML = "本站已在风雨中度过了 "
+  document.getElementById("times").innerHTML = dnum +" 天 " + hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
+  document.getElementById("timeDate").style.color="#333";
+  document.getElementById("times").style.color="#333";
+  }
+  setInterval("createtime()",250);
+  </script>丨
+ </footer>
+ <script>setLoadingBarProgress(80);</script>
 
     <div class="openNav no-select" style="height: 50px;">
       <div class="iconflat no-select" style="width: 50px; height: 50px;">
