@@ -88,11 +88,11 @@
     border-bottom:none
 }
 .aplayer.aplayer-fixed .aplayer-body {
-    position:fixed;
-    bottom:0;
-    left:0;
-    right:0;
-    margin:0;
+        position:fixed;
+        bottom:0;
+        left:0;
+        right:0;
+        margin:0;
     z-index:99;
     background:#fff;
     padding-right:18px;
@@ -1353,7 +1353,6 @@ a:hover,a:active {
 .yya {
     position:fixed;
     left:0;
-    background:turquoise;
     box-shadow:0 1px 40px -8px rgba(0,0,0,.5)
 }
 .gizle {
