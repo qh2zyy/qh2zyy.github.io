@@ -88,11 +88,11 @@
     border-bottom:none
 }
 .aplayer.aplayer-fixed .aplayer-body {
-        position:fixed;
-        bottom:0;
-        left:0;
-        right:0;
-        margin:0;
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:0;
     z-index:99;
     background:#fff;
     padding-right:18px;
@@ -1353,6 +1353,7 @@ a:hover,a:active {
 .yya {
     position:fixed;
     left:0;
+    background: rgba(0,245,255,.75);
     box-shadow:0 1px 40px -8px rgba(0,0,0,.5)
 }
 .gizle {
@@ -1464,7 +1465,8 @@ a:hover,a:active {
     margin:0;
     padding:0;
     list-style:none;
-    display:inline-block
+    display:inline-block;
+    margin-left: 8em
 }
 .site-top ul li {
     float:left;
@@ -2023,6 +2025,11 @@ i.iconfont.hotpost {
     text-align:center;
     font-size:13px;
     color:#b9b9b9
+}
+.footer-info {
+    padding: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 .site-info a {
     color:#b9b9b9
@@ -5819,7 +5826,8 @@ button.botui-actions-buttons-button {
     padding-left:6px;
     padding-right:15px;
     padding-top:11px;
-    text-decoration-line:none
+    text-decoration-line:none;
+    width: 120%
 }
 .logolink.moe-mashiro .sakurasono {
     font-size:25px;
