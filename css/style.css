@@ -2021,6 +2021,9 @@ i.iconfont.hotpost {
     margin-left:auto;
     margin-right:auto
 }
+.site-header:hover {
+    background-color: rgba(0,245,255,.75);
+}
 .site-info {
     text-align:center;
     font-size:13px;
