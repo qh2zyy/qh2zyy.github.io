@@ -7429,7 +7429,8 @@ to {
 }
 .highlight .code .line {
     margin-left:25px;
-    padding-left:5px
+    padding-left:5px;
+    color: white
 }
 .highlight .code .line:hover {
     background-color:rgba(255,255,255,.1)
